@@ -1,5 +1,5 @@
 /*************************************/
-/* Header*/
+/* Header */
 /*************************************/
 header {
   padding-top: 7rem;
@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .logo-img {
@@ -27,4 +28,19 @@ header {
 .try-it-free:hover,
 .try-it-free:active {
   box-shadow: 0 0 5px 0 hsl(321, 100%, 78%);
+}
+
+/*************************************/
+/* Hero-Section */
+/*************************************/
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.hero-img {
+width: 100%;
 }
