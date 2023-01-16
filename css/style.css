@@ -1,0 +1,30 @@
+/*************************************/
+/* Header*/
+/*************************************/
+header {
+  padding-top: 7rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.try-it-free:link,
+.try-it-free:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: .8rem 2.5rem;
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 1000px;
+}
+
+.try-it-free:hover,
+.try-it-free:active {
+  box-shadow: 0 0 5px 0 hsl(321, 100%, 78%);
+}
