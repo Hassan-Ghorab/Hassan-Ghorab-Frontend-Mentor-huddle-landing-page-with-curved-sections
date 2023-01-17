@@ -29,13 +29,6 @@ a {
   text-decoration: none;
 }
 
-*:focus {
-  outline: none;
-  /* outline: 4px dotted #e67e22; */
-  /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(245, 56, 56, .4) !important;
-}
-
 ::-webkit-scrollbar{
   width: .9rem;
 }
@@ -68,7 +61,7 @@ background-color: var(--tint-Dark-color);
   font-weight: 600;
   color: hsl(192, 100%, 9%);
   max-width: 50rem;
-  line-height: 1.5;
+  line-height: 1.7;
   margin: 2rem 0 4rem;
 }
 
@@ -80,6 +73,16 @@ background-color: var(--tint-Dark-color);
   background-color: hsl(322, 100%, 66%);
   border-radius: 1000px;
   font-weight: 700;
+}
+
+.wavy-img {
+  display: block; /* Avoid the space under the image caused by line height */
+  width: 100%;
+  position: relative;
+}
+
+.footer .wavy-img {
+  top: 5px;
 }
 
 .flex {

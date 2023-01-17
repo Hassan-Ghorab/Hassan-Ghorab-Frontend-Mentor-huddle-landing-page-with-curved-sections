@@ -19,6 +19,8 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="icomoon/style.css">
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -27,9 +29,9 @@
     <header class="header">
       <div class="container">
         <nav class="nav center-text">
-          <div class="logo-container">
+          <a class="logo-container">
             <img src="images/logo.svg" alt="logo-img" class="logo-img" />
-          </div>
+          </a>
           <a href="#" class="try-it-free">Try It Free</a>
         </nav>
       </div>
@@ -80,7 +82,7 @@
 
     <section class="section-component">
       <picture>
-        <source media="(min-width: 768px)" srcset="images/bg-section-top-desktop-1.svg">
+        <source media="(min-width: 768px)" srcset="images/bg-section-top-desktop-1.svg" class="wavy-img">
         <img src="images/bg-section-top-mobile-1.svg" alt="" class="wave-bg-top-1 wavy-img">
       </picture>
       <div class="component-content-container">
@@ -99,7 +101,7 @@
         </div>
       </div>
       <picture>
-        <source media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-1.svg">
+        <source media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-1.svg" class="wavy-img">
         <img src="images/bg-section-bottom-mobile-1.svg" alt="" class="wave-bg-bottom-1 wavy-img">
       </picture>
     </section>
@@ -123,7 +125,7 @@
 
     <section class="section-component">
       <picture>
-        <source media="(min-width: 768px)" srcset="images/bg-section-top-desktop-2.svg">
+        <source media="(min-width: 768px)" srcset="images/bg-section-top-desktop-2.svg" class="wavy-img">
         <img src="images/bg-section-top-mobile-2.svg" alt="" class="wave-bg-top-1 wavy-img">
       </picture>
       <div class="component-content-container">
@@ -142,9 +144,60 @@
         </div>
       </div>
       <picture>
-        <source media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-2.svg">
+        <source media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-2.svg" class="wavy-img">
         <img src="images/bg-section-bottom-mobile-2.svg" alt="" class="wave-bg-bottom-1 wavy-img">
       </picture>
+    </section>
+
+    <section class="footer">
+      <picture>
+        <source media="(min-width: 768px)" srcset="images/bg-footer-top-desktop.svg" class="wavy-img">
+        <img src="images/bg-footer-top-mobile.svg" alt="" class="wave-bg-top-1 wavy-img">
+      </picture>
+        <div class="footer-container">
+          <div class="container">
+            <div class="footer-info-box">
+              <a class="logo-container">
+                <img src="images/white-logo.svg" alt="logo-img" class="logo-img" />
+              </a>
+              <p class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Suscipit natus laudantium ut quam voluptatibus aliquid excepturi at fuga iusto neque.
+              </p>
+              <div class="phone">
+                <img src="images/icon-phone.svg" alt="" class="phone-icon">
+                <a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a>
+              </div>
+              <div class="email">
+                <img src="images/icon-email.svg" alt="" class="email-icon">
+                <a href="mailto:example@huddle.com">example@huddle.com</a>
+              </div>
+  
+              <div class="social-icons">
+                <i class="icon-facebook2 facebook-icon social-icon"></i>
+                <i class="icon-instagram social-icon"></i>
+                <i class="icon-twitter social-icon"></i>
+              </div>
+            </div>
+  
+            <div class="cta-box">
+              <h2 class="secondary-heading">Newsletter</h2>
+              <p class="sub-heading">
+                To receive tips on how to grow your community,
+                sign up to our weekly newsletter. We'll never send 
+                you spam or pass on your email address
+              </p>
+  
+              <form action="" class="cta-form">
+                <div class="input-email">
+                  <input type="email" placeholder="john#mail.com" name="mail" required>
+                </div>
+                <div class="input-submit">
+                  <input type="submit" value="Subscribe">
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
     </section>
   </body>
 </html>

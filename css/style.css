@@ -2,8 +2,9 @@
 /* Header */
 /*************************************/
 header {
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -13,6 +14,8 @@ header {
 
 .logo-img {
   max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .try-it-free:link,
@@ -76,12 +79,9 @@ header {
 }
 
 /*************************************/
-/* Grow-Section */
+/* Component-Sections */
 /*************************************/
-.wave-bg-top-1 {
-position: relative;
-top: 5px;
-}
+
 
 .component-content-container {
   background-color: #f6fbff;
@@ -96,18 +96,149 @@ top: 5px;
 }
 
 .component-img-container {
-width: 55%;
+  width: 55%;
 }
 
 .component-img {
   width: 100%;
-} 
-
-.wavy-img {
-width: 100%;
 }
 
 .no-color-bg {
   background-color: #fff;
   padding: 12rem 0;
+}
+
+/*************************************/
+/* Footer */
+/*************************************/
+.footer {
+  color: #fff;
+}
+.footer-container {
+  padding: 10rem 0;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer-container .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .secondary-heading {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer .sub-heading {
+  font-size: 14px;
+  max-width: 35rem;
+  color: #fff;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.phone a,
+.email a {
+  color: #fff;
+}
+
+.phone-icon,
+.email-icon {
+  padding-right: 2rem;
+}
+
+.phone {
+  margin-bottom: 1.7rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin: 7rem 2.5rem 0 0;
+  font-size: 3rem;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+.icon-instagram,
+.icon-twitter {
+  background-color: #fff;
+  color: hsl(192, 100%, 9%);
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.icon-facebook2:hover {
+  background-color: #fff;
+  color: #1877f2;
+}
+
+.icon-instagram:hover {
+  background-color: #c13584;
+  color: #fff;
+}
+
+.icon-twitter:hover {
+  background-color: #1d9bf0;
+  color: #fff;
+}
+
+.cta-form {
+display: flex;
+justify-content: space-between;
+gap: 4rem;
+}
+
+input[type="email"],
+input[type="submit"] {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 4.5rem;
+  padding: 1rem;
+}
+
+input[type="email"] {
+  width: 300px;
+  color: hsl(192, 100%, 9%);
+}
+
+.input-email {
+  transition: all 3s;
+}
+
+.input-email:hover::after {
+  content: "Check your email please";
+  display: block;
+  margin-top: .5rem;
+  width: 20rem;
+  height: 10rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hsl(0, 100%, 63%);
+}
+
+input[type="email"]:focus {
+  border: 1px solid hsl(0, 100%, 63%);
+}
+
+input[type="submit"] {
+  width: 15rem;
+  background-color: hsl(321, 100%, 78%);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
 }

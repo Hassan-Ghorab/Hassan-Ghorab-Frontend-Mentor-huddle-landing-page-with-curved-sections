@@ -65,6 +65,20 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
+
+  .footer-container .container {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+
+  .cta-form {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+  
 }
 
 /***************************/
@@ -83,6 +97,12 @@
 
   .sub-heading {
     font-size: 14px;
+}
+
+.logo-img {
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-start;
 }
 
   .community-container {
