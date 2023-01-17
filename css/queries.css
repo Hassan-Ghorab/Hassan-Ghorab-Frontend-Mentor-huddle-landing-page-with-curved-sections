@@ -3,7 +3,12 @@
 /*************************************/
 .container {
   margin: 0 auto;
-  padding: 0 3rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 3rem;
+  }
 }
 
 @media (min-width: 576px) {
@@ -85,13 +90,14 @@
     justify-content: center;
   }
 
-  .grow-content-container .container {
+  .component-content-container .container {
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    gap: 10rem;
   }
 
-  .grow-img-container {
+  .component-img-container {
     display: flex;
     order: -1;
     }

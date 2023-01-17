@@ -83,23 +83,31 @@ position: relative;
 top: 5px;
 }
 
-.grow-content-container {
+.component-content-container {
   background-color: #f6fbff;
   padding: 8rem 0;
 }
 
-.grow-content-container .container {
+.component-content-container .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12rem;
+  gap: 5rem;
 }
 
-.grow-img {
+.component-img-container {
+width: 55%;
+}
+
+.component-img {
   width: 100%;
 } 
 
-.wave-bg-top-1,
-.wave-bg-bottom-1 {
+.wavy-img {
 width: 100%;
+}
+
+.no-color-bg {
+  background-color: #fff;
+  padding: 12rem 0;
 }
