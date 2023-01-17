@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: hsl(192, 100%, 9%);
+  text-transform: capitalize;
 }
 
 ul {
@@ -55,13 +56,10 @@ background-color: var(--tint-Dark-color);
 /* helper classes */
 .primary-heading {
   font-size: 5rem;
-  text-transform: capitalize;
 }
 
 .secondary-heading {
   font-size: 3.5rem;
-  font-weight: 600;
-  max-width: 40rem;
   line-height: 1.5;
 }
 
@@ -69,17 +67,17 @@ background-color: var(--tint-Dark-color);
   font-size: 2rem;
   font-weight: 600;
   color: hsl(192, 100%, 9%);
-  width: 65rem;
+  max-width: 65rem;
   line-height: 1.5;
   margin: 2rem 0 4rem;
 }
 
 .get-started:link,
 .get-started:visited {
-  padding: 2.5rem 10rem;
+  padding: 2rem 8rem;
   font-size: 2rem;
   color: #fff;
-  background-color: hsl(321, 100%, 78%);
+  background-color: hsl(322, 100%, 66%);
   border-radius: 1000px;
   font-weight: 700;
 }
