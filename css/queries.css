@@ -3,7 +3,7 @@
 /*************************************/
 .container {
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 @media (min-width: 576px) {
@@ -75,6 +75,10 @@
     font-size: 4rem;
     text-transform: capitalize;
   }
+
+  .sub-heading {
+    font-size: 14px;
+}
 
   .community-container {
     flex-direction: column;

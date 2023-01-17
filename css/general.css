@@ -64,7 +64,7 @@ background-color: var(--tint-Dark-color);
 }
 
 .sub-heading {
-  font-size: 2rem;
+  font-size: 16px;
   font-weight: 600;
   color: hsl(192, 100%, 9%);
   max-width: 65rem;

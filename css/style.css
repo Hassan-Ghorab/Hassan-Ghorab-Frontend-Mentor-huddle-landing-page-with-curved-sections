@@ -78,13 +78,12 @@ header {
 /*************************************/
 /* Grow-Section */
 /*************************************/
-.top-wave-bg-container {
-  background-image: url(../images/bg-section-top-desktop-1.svg);
-  background-size: cover;
+.wave-bg-top-1 {
+position: relative;
+top: 5px;
 }
 
 .grow-content-container {
-  position: relative;
   background-color: #f6fbff;
   padding: 8rem 0;
 }
@@ -93,18 +92,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10rem;
+  gap: 12rem;
 }
 
 .grow-img {
   width: 100%;
 } 
 
-.grow-bottom-wave-bg {
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.wave-bg-top-1,
+.wave-bg-bottom-1 {
+width: 100%;
 }
