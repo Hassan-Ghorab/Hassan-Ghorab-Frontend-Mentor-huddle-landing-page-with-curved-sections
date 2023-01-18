@@ -61,9 +61,18 @@
 /* BELOW 944px (Tablets) */
 /**************************/
 @media (max-width: 59em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
+  .hero-container {
+    gap: 20rem;
+  }
+
+  .community-section {
+    padding: 15rem 0 0;
+  }
+
+  .get-started:link,
+  .get-started:visited {
+    margin-top: 5rem;
+    padding: 1.9rem 6rem;
   }
 
   .community-container {
@@ -75,7 +84,7 @@
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    gap: 10rem;
+    gap: 12rem;
   }
 
   .component-img-container {
@@ -102,7 +111,7 @@
     display: flex;
     flex-direction: column;
     order: -1;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
   }
 
   .cta-form {
@@ -135,26 +144,60 @@
     font-size: 14px;
   }
 
+  .nav {
+    padding-top: 4rem;
+  }
+
   .logo-img {
-    max-width: 85%;
+    max-width: 50%;
     display: flex;
     justify-content: flex-start;
   }
 
+  .community-section .sub-heading {
+    margin: 0 0 4rem;
+  }
+
+  .get-section {
+    padding: 17rem 0 33rem;
+  }
+
+  .footer .sub-heading {
+    max-width: 100%;
+    margin: 3rem 0;
+  }
+
   .cta-form {
-    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 2rem;
   }
-}
 
+  .footer .logo-img {
+    max-width: 80%;
+  }
+}
 /***************************/
 /* BELOW 280px (Phones) */
 /**************************/
 @media (max-width: 18em) {
   html {
     /* 8px / 16px = 0.5 = 50% */
-    font-size: 25%;
+    font-size: 30%;
+  }
+
+  .sub-heading {
+    max-width: 100%;
+  }
+
+  .footer .sub-heading {
+    font-size: 13px;
+    max-width: 100%;
+    color: #fff;
+  }
+
+  input[type="email"] {
+    width: 250px;
   }
 }

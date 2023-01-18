@@ -10,11 +10,16 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: hsl(192, 100%, 9%);
   text-transform: capitalize;
@@ -29,21 +34,21 @@ a {
   text-decoration: none;
 }
 
-::-webkit-scrollbar{
-  width: .9rem;
+::-webkit-scrollbar {
+  width: 0.9rem;
 }
-::-webkit-scrollbar-track{
-background-color: #f6f6f6;
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: hsl(322, 100%, 66%);
-border-radius: 1000px;
-height: 18rem;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 1000px;
+  height: 18rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background-color: hsl(321, 100%, 78%);
+  background-color: hsl(321, 100%, 78%);
 }
 
 /* helper classes */
@@ -75,6 +80,11 @@ background-color: hsl(321, 100%, 78%);
   font-weight: 700;
 }
 
+.get-started:hover,
+.get-started:active {
+  background-color: hsl(321, 100%, 78%);
+}
+
 .wavy-img {
   display: block; /* Avoid the space under the image caused by line height */
   width: 100%;
@@ -98,7 +108,7 @@ background-color: hsl(321, 100%, 78%);
 }
 
 .center-text {
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

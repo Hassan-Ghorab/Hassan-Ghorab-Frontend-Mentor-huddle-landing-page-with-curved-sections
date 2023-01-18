@@ -1,15 +1,12 @@
 /*************************************/
 /* Header */
 /*************************************/
-header {
-  padding-top: 6rem;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20rem;
+  padding-top: 6rem;
 }
 
 .logo-img {
@@ -23,10 +20,10 @@ header {
   display: block;
   font-size: 1.6rem;
   padding: 0.8rem 3rem;
-  width: 14rem;
+  width: 14.5rem;
   color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
-  box-shadow: 0 0 2px .3px hsl(322, 100%, 66%);
+  box-shadow: 0 0 2px 0.2px hsl(322, 100%, 66%);
   border-radius: 1000px;
 }
 
@@ -56,6 +53,7 @@ header {
 .community-section {
   padding: 10rem 0;
 }
+
 .community-container {
   display: flex;
   justify-content: space-between;
@@ -107,6 +105,9 @@ header {
   padding: 12rem 0;
 }
 
+/*************************************/
+/* Get-Sections */
+/*************************************/
 .get-section {
   padding: 17rem 0;
 }
@@ -168,7 +169,7 @@ header {
 }
 
 .phone {
-  margin-bottom: 1.7rem;
+  margin-bottom: 20px;
 }
 
 .social-icons {
@@ -178,17 +179,17 @@ header {
 
 .social-icon {
   margin: 7rem 2.5rem 0 0;
-  font-size: 3rem;
+  font-size: 30px;
   border-radius: 3px;
   transition: all 0.5s;
+  color: #fff;
 }
 
-.icon-instagram,
 .icon-twitter {
   background-color: #fff;
   color: hsl(192, 100%, 9%);
-  font-size: 2rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
+  font-size: 23px;
 }
 
 .icon-facebook2:hover {
@@ -199,17 +200,18 @@ header {
 .icon-instagram:hover {
   background-color: #c13584;
   color: #fff;
+  padding: 0.4rem;
+  font-size: 23px;
 }
 
 .icon-twitter:hover {
   background-color: #1d9bf0;
-  color: #fff;
 }
 
 .cta-form {
-display: flex;
-justify-content: space-between;
-gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
 input[type="email"],
@@ -233,7 +235,7 @@ input[type="email"] {
 .input-email:hover::after {
   content: "Check your email please";
   display: block;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   width: 20rem;
   height: 10rem;
   font-size: 1.2rem;
@@ -252,4 +254,8 @@ input[type="submit"] {
   font-family: inherit;
   font-weight: 700;
   font-size: 1.6rem;
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(321, 100%, 78%);
 }
