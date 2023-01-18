@@ -66,19 +66,55 @@
     font-size: 50%;
   }
 
+  .community-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .component-content-container .container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+  }
+
+  .component-img-container {
+    display: flex;
+    order: -1;
+  }
+
+  .component-img-container {
+    width: 90%;
+  }
+
   .footer-container .container {
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
   }
 
+  .footer .sub-heading {
+    font-size: 14px;
+    max-width: 80%;
+    color: #fff;
+  }
+
+  .cta-box {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    margin-bottom: 10rem;
+  }
 
   .cta-form {
-    flex-direction: column;
+    display: flex;
     justify-content: flex-start;
-    gap: 4rem;
-}
-  
+    align-items: flex-end;
+    gap: 2rem;
+  }
+
+  input[type="email"] {
+    width: 330px;
+  }
 }
 
 /***************************/
@@ -97,36 +133,26 @@
 
   .sub-heading {
     font-size: 14px;
-}
-
-.logo-img {
-  max-width: 50%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-  .community-container {
-    flex-direction: column;
-    justify-content: center;
   }
 
-  .component-content-container .container {
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10rem;
-  }
-
-  .component-img-container {
+  .logo-img {
+    max-width: 85%;
     display: flex;
-    order: -1;
-    }
+    justify-content: flex-start;
+  }
+
+  .cta-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2rem;
+  }
 }
 
 /***************************/
 /* BELOW 280px (Phones) */
 /**************************/
-@media (max-width:18em) {
+@media (max-width: 18em) {
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 25%;
