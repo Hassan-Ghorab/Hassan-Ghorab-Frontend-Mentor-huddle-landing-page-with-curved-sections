@@ -117,8 +117,7 @@
   .cta-form {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    gap: 2rem;
+    align-items: flex-end
   }
 
   input[type="email"] {
