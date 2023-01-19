@@ -194,15 +194,20 @@ filter: brightness(0) invert(1);
 }
 
 .icon-twitter {
+  display: inline-block;
   background-color: #fff;
   color: hsl(192, 100%, 9%);
-  padding: 0.4rem;
-  font-size: 23px;
+  font-size: 29px;
+  width: 40;
+  height: 40;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .icon-facebook2:hover {
   background-color: #fff;
   color: #1877f2;
+  border-radius: 3px;
 }
 
 .icon-instagram:hover {
@@ -210,10 +215,12 @@ filter: brightness(0) invert(1);
   color: #fff;
   padding: 0.4rem;
   font-size: 23px;
+  border-radius: 3px;
 }
 
 .icon-twitter:hover {
   background-color: #1d9bf0;
+  border-radius: 3px;
 }
 
 .cta-form {
