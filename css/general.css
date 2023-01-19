@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem hsl(321, 100%, 78%) !important;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -65,7 +70,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   color: hsl(192, 100%, 9%);
-  max-width: 50rem;
+  max-width: 53rem;
   line-height: 1.7;
   margin: 2rem 0 4rem;
 }

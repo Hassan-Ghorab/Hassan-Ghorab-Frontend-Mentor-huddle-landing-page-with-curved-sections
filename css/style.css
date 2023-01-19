@@ -13,6 +13,7 @@
   max-width: 100%;
   display: flex;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .try-it-free:link,
@@ -126,6 +127,7 @@
 .footer {
   color: #fff;
 }
+
 .footer-container {
   padding: 10rem 0;
   background-color: hsl(192, 100%, 9%);
@@ -134,6 +136,10 @@
 .footer-container .container {
   display: flex;
   justify-content: space-between;
+}
+
+.footer .logo-img {
+filter: brightness(0) invert(1);
 }
 
 .footer .secondary-heading {
@@ -175,9 +181,11 @@
 .social-icons {
   display: flex;
   align-items: center;
+
 }
 
 .social-icon {
+  display: inline-block;
   margin: 7rem 2.5rem 0 0;
   font-size: 30px;
   border-radius: 3px;
