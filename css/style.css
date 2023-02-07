@@ -139,7 +139,7 @@
 }
 
 .footer .logo-img {
-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
 
 .footer .secondary-heading {
@@ -181,7 +181,6 @@ filter: brightness(0) invert(1);
 .social-icons {
   display: flex;
   align-items: center;
-
 }
 
 .social-icon {
