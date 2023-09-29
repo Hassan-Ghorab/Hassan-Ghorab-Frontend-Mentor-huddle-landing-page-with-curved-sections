@@ -237,7 +237,7 @@ input[type="submit"] {
   padding: 1rem;
 }
 
-input[type="email"] {
+input[type="email"]{
   width: 300px;
   color: hsl(192, 100%, 9%);
 }
